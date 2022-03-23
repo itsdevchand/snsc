@@ -1,0 +1,21 @@
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: bisque;
+}
+
+.my-img {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  object-position: top;
+  float: left;
+  margin: 25px;
+}
+
+.my-title {
+}
+
+.para-two {
+  clear: left;
+}

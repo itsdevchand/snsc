@@ -1,0 +1,20 @@
+.wrapper {
+  background-color: bisque;
+  padding: 30px;
+}
+
+.item {
+  padding: 30px;
+  font-size: 30px;
+  color: #fff;
+}
+
+.item-one {
+  background-color: aquamarine;
+}
+.item-two {
+  background-color: crimson;
+}
+.item-three {
+  background-color: blueviolet;
+}

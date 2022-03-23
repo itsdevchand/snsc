@@ -1,0 +1,25 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+h1 {
+  /* background-color: #56a79a; */
+  /* background-image: url("../img/bg/sea-beach.jpg"); */
+}
+
+.section {
+  background-image: url("../img/bg/sunflower.jpg");
+  background-repeat: no-repeat;
+  /* background-position-x: right; */
+  background-position-y: center;
+  background-size: cover;
+  border: 2px solid red;
+  height: 700px;
+  width: 700px;
+}

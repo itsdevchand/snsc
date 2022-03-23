@@ -1,0 +1,12 @@
+/* flex container */
+
+.flex-nav {
+  background-color: crimson;
+  padding: 0 100px;
+}
+
+/* flex items */
+
+.logo-text {
+  color: #fff;
+}

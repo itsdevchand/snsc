@@ -1,0 +1,43 @@
+.wrapper {
+  max-width: 992px;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  box-shadow: 0 0 10px #00000040;
+  border-bottom: 2px solid #019879;
+}
+
+table,
+th,
+td {
+  /* border: 1px solid #fff; */
+}
+
+/* table row */
+tr:nth-child(odd) {
+  background-color: #f3f3f3;
+  color: #019879;
+}
+
+.fab {
+  font-size: 50px;
+  color: #019879;
+}
+
+th {
+  background-color: #019879;
+  padding: 25px 0;
+  vertical-align: bottom;
+  text-align: center;
+  color: #fff;
+}
+
+td {
+  padding: 20px 0;
+  vertical-align: top;
+  text-align: center;
+}

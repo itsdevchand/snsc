@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  /* background-color: royalblue; */
+}
+
+/* predefine color name */
+h1 {
+  color: rgba(0, 0, 255, 0.692);
+}
+
+h2 {
+  /* color: rgb(57, 202, 77); */
+  /* color: hsla(0, 60%, 50%, 10%); */
+  display: inline-block;
+  padding: 30px;
+  color: #fff;
+  border: 5px solid #29b6a3f5;
+  border-radius: 205px;
+  /* border-width: 5px;
+  border-style: solid;
+  border-color: #123456; */
+}
+
+h3 {
+  color: #abc;
+}
+
+p {
+  font-size: 25px;
+  color: rgba(255, 255, 255, 0.541);
+}
+
+h2 {
+  border-style: dotted;
+}

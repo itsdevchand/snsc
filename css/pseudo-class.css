@@ -1,0 +1,121 @@
+.wrapper {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* achor queudo class */
+a:link {
+  text-decoration: none;
+  color: blue;
+}
+
+a:visited {
+  color: hotpink;
+}
+
+a:hover {
+  color: brown;
+  text-decoration: underline;
+}
+
+a:active {
+  color: yellow;
+}
+
+/* container */
+/* .container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+} */
+
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* p {
+  display: none;
+  background-color: crimson;
+  padding: 10px 30px;
+  height: 50px;
+  width: 50px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  font-size: 20px;
+  position: absolute;
+  color: #fff;
+  top: -30px;
+  right: -30px;
+} */
+
+/* .container h1 {
+  color: tomato;
+  background-color: #333;
+  padding: 15px 30px;
+  transition: transform 500ms ease-out;
+}
+
+.container:hover h1 {
+  color: #fff;
+}
+
+.container:hover p {
+  display: flex;
+} */
+
+/* ul li:last-child {
+  color: blueviolet;
+} */
+
+/* ul li:nth-child(odd) {
+  color: blueviolet;
+}
+
+ul li:nth-child(even) {
+  color: aqua;
+} */
+
+ul li:not(.item) {
+  color: aqua;
+}
+
+/* .item {
+  color: blueviolet;
+} */
+
+/* tooltip */
+/* span {
+  display: none;
+  position: absolute;
+  border-radius: 25px;
+  padding: 8px 25px;
+  background-color: blueviolet;
+  color: #fff;
+  font-size: 13px;
+  top: 30px;
+  left: 150px;
+}
+
+.tooltip {
+  padding: 50px;
+  position: relative;
+}
+
+h2 {
+}
+
+.tooltip:hover span {
+  display: inline;
+} */
+
+/* quotation */
+q:lang(john) {
+  quotes: '(' ')';
+}

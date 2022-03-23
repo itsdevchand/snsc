@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+}
+.block {
+  height: 200px;
+  width: 300px;
+  display: block;
+  background-color: coral;
+}
+
+.inline {
+  height: 200px;
+  width: 200px;
+  margin: 20px;
+  display: inline;
+  background-color: cyan;
+}
+
+.wrapper {
+  padding: 10px 50px;
+  box-shadow: 0 0 8px #00000050;
+}
+
+.container {
+  margin-left: auto;
+  color: rgb(red, green, blue);
+}
+
+.inline-block {
+  background-color: darkslateblue;
+  display: inline-block;
+  font-size: 25px;
+  color: #fff;
+  padding: 12px 30px;
+  border-radius: 5px;
+  margin: 10px 15px;
+}
+
+.box-sizing {
+  height: 200px;
+  width: 200px;
+  background-color: darkslateblue;
+}

@@ -1,0 +1,83 @@
+.nav-one {
+  padding: 20px 100px;
+  box-shadow: 0 5px 15px #00000060;
+}
+
+.nav-one::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.nav-one h1 {
+  float: left;
+  margin: 0;
+}
+
+.nav-one ul {
+  margin: 0;
+  padding: 0;
+  float: right;
+  list-style-type: none;
+}
+
+.nav-one ul li {
+  float: left;
+  padding: 8px 25px;
+  margin: 0 20px;
+  border-radius: 8px;
+  border: 1px solid #aaa;
+}
+
+/* second navbar */
+.nav-two {
+  background-color: crimson;
+  padding: 20px 100px;
+}
+
+.clear::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.floatt-lf {
+  float: left;
+}
+
+/* logog section */
+
+.logo-box {
+  width: 20%;
+}
+
+.logo-text {
+  color: #fff;
+  margin: 0;
+}
+
+/* nav menu section */
+.nav-menu {
+  width: 60%;
+}
+
+.nav-item {
+  float: left;
+  border: 2px solid #fff;
+  padding: 18px 25px;
+  color: #fff;
+  margin-right: 15px;
+}
+
+/* nav acccount section */
+.nav-account {
+  width: 20%;
+}
+
+.nav-account a {
+  display: inline-block;
+  padding: 8px 25px;
+  color: #fff;
+  border: 2px solid #fff;
+  border-radius: 25px;
+}

@@ -1,0 +1,30 @@
+.my-box {
+  position: fixed;
+  border: 2px solid;
+}
+
+#p1 {
+  position: relative;
+  font-family: Arial;
+  color: red;
+}
+
+#p2 {
+  position: absolute;
+  top: 0;
+  left: 200px;
+}
+
+.section-one {
+  width: 400px;
+}
+
+.section-one img {
+  width: 400px;
+  height: 400px;
+  object-fit: contain;
+}
+
+.section-one p {
+  background-color: bisque;
+}

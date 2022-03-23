@@ -1,0 +1,23 @@
+.container {
+  padding: 50px;
+  background-color: darkorange;
+}
+
+.container::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.item {
+  width: 33.333333%;
+  float: left;
+}
+
+.item-one {
+  background-color: slateblue;
+}
+
+.item-two {
+  background-color: rgba(0, 0, 0, 0.5);
+}

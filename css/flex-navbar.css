@@ -1,0 +1,46 @@
+/* flex container */
+
+.flex-nav {
+  display: flex;
+}
+
+/* flex items */
+
+.logo-box {
+  flex-basis: 20%;
+}
+
+.nav-menu {
+  flex-basis: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav-list {
+  display: flex;
+}
+
+.nav-item {
+  font-size: 20px;
+  padding: 8px 20px;
+  border: 2px solid #fff;
+  color: #fff;
+  margin: 0 10px;
+}
+
+.nav-account {
+  flex-basis: 20%;
+  display: flex;
+  align-items: center;
+}
+
+.nav-btn {
+  display: inline-block;
+  font-size: 20px;
+  padding: 8px 20px;
+  border: 2px solid #fff;
+  color: #fff;
+  margin: 0 10px;
+  border-radius: 25px;
+}

@@ -1,0 +1,31 @@
+.container {
+  max-width: 1000px;
+  margin: 50px auto;
+}
+
+/* first line */
+
+/* p::first-line {
+  color: coral;
+  font-size: 40px;
+  letter-spacing: 5px;
+  background-color: cornflowerblue;
+} */
+
+/* first letter */
+p::first-letter {
+  color: cornflowerblue;
+  font-size: 50px;
+}
+
+/* for list */
+::marker {
+  color: crimson;
+  font-size: 30px;
+}
+
+/* for slection */
+::selection {
+  background-color: crimson;
+  color: #fff;
+}

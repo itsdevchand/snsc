@@ -1,0 +1,9 @@
+.my-box {
+  overflow: auto;
+}
+
+.wrapper {
+  background-color: #ffe4c4;
+  height: 250px;
+  width: 2500px;
+}

@@ -1,0 +1,33 @@
+.container {
+  background-color: antiquewhite;
+  padding: 100px;
+}
+
+.box {
+  height: 100px;
+}
+
+.box-one {
+  background-color: aqua;
+}
+
+.box-two {
+  background-color: crimson;
+}
+
+.box-three {
+  background-color: blueviolet;
+}
+
+.box-four {
+  background-color: blue;
+}
+
+.fab {
+  font-size: 50px;
+  color: #fff;
+}
+
+h1 {
+  margin: 0;
+}
