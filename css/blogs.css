@@ -1,0 +1,70 @@
+/* flex container */
+
+.flex-nav {
+  display: flex;
+  padding: 0 50px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+/* flex items */
+
+.logo-box {
+  flex-basis: 20%;
+}
+
+.nav-menu {
+  flex-basis: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav-list {
+  display: flex;
+}
+
+.nav-item {
+  font-size: 20px;
+  padding: 8px 20px;
+  border: 2px solid #333;
+  color: #333;
+  margin: 0 10px;
+  position: relative;
+}
+
+.nav-item:hover .dropdown-menu {
+  visibility: visible;
+  opacity: 1;
+  transform: translateY(-10px);
+}
+
+/* dropdown menu */
+
+.dropdown-menu {
+  visibility: hidden;
+  position: absolute;
+  background-color: #fff;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  padding: 25px;
+  top: 70px;
+  left: -20px;
+  opacity: 0;
+  transition: all 200ms ease-in;
+}
+
+.nav-account {
+  flex-basis: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.nav-btn {
+  display: inline-block;
+  font-size: 20px;
+  padding: 8px 20px;
+  border: 2px solid #333;
+  color: #333;
+  margin: 0 10px;
+  border-radius: 25px;
+}
