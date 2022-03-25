@@ -1,0 +1,56 @@
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.wrapper {
+  padding: 50px;
+  height: 500px;
+  width: 500px;
+  background-color: bisque;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: cornflowerblue;
+  animation: my-animation 2s ease 1s infinite forwards alternate;
+  /* animation-name: my-animation;
+  animation-duration: 1s;
+  animation-timing-function: ease-in;
+  animation-direction: alternate;
+  animation-fill-mode: forwards;
+  animation-iteration-count: 3;
+  animation-delay: 1s; */
+}
+
+.wrapper:hover .box {
+  animation-play-state: paused;
+}
+
+@keyframes my-animation {
+  /* from {
+    transform: translateX(0px);
+  }
+
+  to {
+    background-color: tomato;
+    transform: translateX(300px);
+  } */
+
+  0% {
+    transform: translateX(0px);
+  }
+
+  25% {
+    transform: translateY(300px);
+  }
+  50% {
+    transform: translateX(300px) translateY(300px);
+  }
+  100% {
+    transform: translateX(300px);
+  }
+}
