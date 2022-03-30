@@ -12,6 +12,10 @@
   flex-basis: 20%;
 }
 
+.nav-icon {
+  display: none;
+}
+
 .nav-menu {
   flex-basis: 60%;
   display: flex;
@@ -24,15 +28,18 @@
 }
 
 .nav-item {
-  font-size: 20px;
-  padding: 8px 20px;
-  border: 2px solid #333;
-  color: #333;
   margin: 0 10px;
   position: relative;
 }
 
-.nav-item:hover .dropdown-menu {
+.dropdown-title {
+  font-size: 20px;
+  padding: 8px 20px;
+  border: 2px solid #333;
+  color: #333;
+}
+
+.dropdown-title:hover + .dropdown-menu {
   visibility: visible;
   opacity: 1;
   transform: translateY(-10px);
@@ -60,11 +67,29 @@
 }
 
 .nav-btn {
-  display: inline-block;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
   font-size: 20px;
   padding: 8px 20px;
   border: 2px solid #333;
   color: #333;
   margin: 0 10px;
   border-radius: 25px;
+}
+
+@media (max-width: 992px) {
+  .flex-nav {
+    justify-content: space-between;
+    align-items: center;
+  }
+  .nav-menu,
+  .nav-account {
+    display: none;
+  }
+
+  .nav-icon {
+    display: block;
+  }
 }

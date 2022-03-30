@@ -1,0 +1,70 @@
+body {
+  background-color: #f1f3fe;
+}
+
+.container {
+}
+
+.navbar {
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 50px;
+}
+
+.caresoul {
+  height: 100vh;
+}
+
+.caresoul img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: right;
+}
+
+.section {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card {
+  text-align: center;
+  padding: 12px 20px 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+
+  flex-basis: 25%;
+}
+
+.card-btn {
+  border: none;
+  padding: 12px 35px;
+  border-radius: 25px;
+  background-color: crimson;
+  color: #fff;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+}
+
+.footer p {
+  flex-basis: 50%;
+  padding: 20px;
+}
+
+@media (max-width: 992px) {
+  .card {
+    flex-basis: 50%;
+  }
+}
+
+@media (max-width: 576px) {
+  .card {
+    flex-basis: 100%;
+  }
+}
