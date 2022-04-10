@@ -1,13 +1,32 @@
+.overlay {
+  display: none;
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
 /* flex container */
 
 .flex-nav {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 /* flex items */
 
 .logo-box {
   flex-basis: 20%;
+}
+
+.hamburger-menu {
+  display: none;
+}
+
+.hamburger-menu .fa-bars {
+  color: #fff;
+  font-size: 25px;
 }
 
 .nav-menu {
@@ -43,4 +62,79 @@
   color: #fff;
   margin: 0 10px;
   border-radius: 25px;
+}
+
+/* floating section */
+
+.float-menu {
+  display: block;
+  position: fixed;
+  height: 100vh;
+  padding: 20px;
+  top: 0;
+  right: 0;
+  width: 300px;
+  background-color: #fff;
+  transform: translateX(310px);
+  transition: all 200ms ease-in;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.float-cross {
+  position: absolute;
+  top: 0;
+  right: 10px;
+  padding: 20px;
+  cursor: pointer;
+}
+
+.float-cross .fa-xmark {
+  font-size: 30px;
+}
+
+.float-cross .fa-xmark:hover {
+  color: crimson;
+}
+
+.float-nav {
+  border-bottom: 1px solid #f1f3fe;
+}
+
+.float-nav li {
+}
+
+.float-nav li a {
+  display: block;
+  padding: 5px 10px;
+  color: #333000;
+}
+
+.float-nav li a:hover {
+  background-color: crimson;
+  color: #fff;
+}
+
+.float-nav,
+.float-account {
+  padding: 20px;
+}
+
+.float-account a {
+  color: #333000;
+  display: block;
+  padding: 5px 10px;
+}
+
+@media (max-width: 1500px) {
+  .hamburger-menu {
+    display: block;
+  }
+
+  .nav-menu {
+    display: none;
+  }
+
+  .nav-account {
+    display: none;
+  }
 }
